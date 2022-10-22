@@ -5,9 +5,9 @@ int main(){
  	printf("Enter a integer: ");
  	scanf("%i", &in);
  	for(i = 2; i <= in / 2; i++){
-    	if(in % i == 0){
-       		r++;
-       		break;
+    		if(in % i == 0){
+       			r++;
+       			break;
    		}
 	}
  	if(r == 0){
